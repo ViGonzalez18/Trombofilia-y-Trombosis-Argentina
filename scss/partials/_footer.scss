@@ -1,0 +1,22 @@
+.footer{
+    background-color: var(--almond);
+    width: 17wv;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    justify-content:space-evenly;
+
+    &__link {
+        text-decoration: none;
+        text-align:center;
+        font-size:x-large;
+        font-style:inherit;
+        color: var(--liver)
+
+    }
+    &__link__img {
+                    width: 6vh;   
+            transform: scale(0.5,0.5);
+
+    }
+}

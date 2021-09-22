@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html{
+    font-size: 62.5%;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+h1 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: var(--dark-red);
+    font-size: 4rem;
+    font-weight:bolder;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 1rem;
+    padding: 1em;
+}
+
+body section p{
+    color: var(--liver);
+    font-size: 20px;
+    padding: 1em 1em;
+    justify-content: center;
+} 

@@ -1,0 +1,46 @@
+
+.menu {
+    text-align:center;
+    font-weight: bold;
+    text-decoration:none;
+    color:inherit;
+    font-size:2rem;
+    margin: 1rem;
+        &__item {
+            display:flex;
+            flex-flow: column;
+            justify-content: center;
+            height:50px;
+            padding:10px 10px;
+            margin: 0.5em;
+            background-image: linear-gradient(to top, #bda5ab, #bea5a4, #bda69f, #b9a89b, #b3aa99);
+            border:1px solid #000;
+            text-align:center;
+            align-items: center;
+            border-radius: 25px;
+            box-shadow: 10px 5px 5px var(--liver);       
+        }   
+            &__item__link {
+             text-decoration: none;
+             color: white;
+            }
+}
+
+
+.custom-height {
+    height: 80vh;
+    overflow: hidden;
+}
+
+.image-index-uno {
+    width: 100%;
+    position: relative;
+
+}
+
+.image-index {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;
+}

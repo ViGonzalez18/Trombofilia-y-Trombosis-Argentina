@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --dark-red: #8c1c13ff;
+  --deep-chestnut: #bf4342ff;
+  --almond: #e7d7c1ff;
+  --cinereous: #a78a7fff;
+  --liver: #735751ff; }
+
+/* Globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Kaisei HarunoUmi', serif; }
+
+h1 {
+  font-family: 'Kaisei HarunoUmi', serif;
+  color: var(--dark-red);
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1rem;
+  padding: 1em; }
+
+body section p {
+  color: var(--liver);
+  font-size: 20px;
+  padding: 1em 1em;
+  justify-content: center; }
+
+/* Paginas */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  padding: 2rem; }
+  .form__texto {
+    text-align: justify;
+    color: var(--liver);
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 1em; }
+
+.texto img {
+  width: 100%;
+  margin: 1rem; }
+
+.galeria-principal {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-auto-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px; }
+
+.galeria-item {
+  position: relative; }
+
+.galeria-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+@media (min-width: 768px) {
+  .galeria-principal {
+    grid-template-columns: repeat(2, 70%); } }
+
+@media (min-width: 1024px) {
+  .galeria-principal {
+    grid-template-columns: repeat(3, 57%);
+    width: 100%; } }
+
+.menu {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  margin: 1rem; }
+  .menu__item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 50px;
+    padding: 10px 10px;
+    margin: 0.5em;
+    background-image: linear-gradient(to top, #bda5ab, #bea5a4, #bda69f, #b9a89b, #b3aa99);
+    border: 1px solid #000;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px var(--liver); }
+  .menu__item__link {
+    text-decoration: none;
+    color: white; }
+
+.custom-height {
+  height: 80vh;
+  overflow: hidden; }
+
+.image-index-uno {
+  width: 100%;
+  position: relative; }
+
+.image-index {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around; }
+
+.ley-trombofilia {
+  padding: 2rem; }
+
+main .ley ul li {
+  list-style-type: none;
+  color: var(--liver);
+  font-size: 2em; }
+
+main .ley p {
+  color: var(--liver);
+  font-size: 2rem;
+  display: flex;
+  justify-content: left; }
+
+.trombofilia picture img {
+  width: 800px; }
+
+.trombofilia picture img {
+  width: 80%; }
+
+main .trombofilia ul li {
+  list-style-type: none;
+  color: var(--liver);
+  font-size: 2rem; }
+
+.texto {
+  text-align: justify;
+  color: var(--liver);
+  font-size: 20px;
+  line-height: 1.5em;
+  padding: 1em; }
+
+main .trombofilia p {
+  color: var(--liver);
+  font-size: 20px; }
+
+/* Sección tabla */
+.tabla {
+  font-size: 2rem; }
+
+table {
+  background-color: #f7f4e0;
+  padding: 3rem; }
+
+table thead tr th {
+  color: #55032c;
+  font-weight: 700;
+  padding: 3em;
+  font-size: 1em; }
+
+table tr td {
+  color: #55032c;
+  font-weight: 700;
+  padding: 3em;
+  font-size: 1em; }
+
+.embarazo {
+  text-align: justify;
+  color: dimgrey;
+  font-size: 20px;
+  line-height: 1.5em; }
+  .embarazo__img {
+    width: 300px;
+    height: 500px; }
+
+.embarazo__img img {
+  width: 50%;
+  height: 50%; }
+
+.ventana {
+  width: 50%;
+  height: 30%; }
+
+.error h2 {
+  font-size: 2rem;
+  color: black; }
+
+.error a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 2.5rem;
+  font-weight: bolder; }
+
+/* Partials */
+.footer {
+  background-color: var(--almond);
+  width: 17wv;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-evenly; }
+  .footer__link {
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    font-style: inherit;
+    color: var(--liver); }
+  .footer__link__img {
+    width: 6vh;
+    transform: scale(0.5, 0.5); }
+
+header {
+  height: 30%;
+  width: 100%;
+  background-image: url("../imagenes/Logo1.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  filter: brightness(125%); }
+
+.logo__imagen {
+  width: 8%;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #000;
+  box-sizing: border-box; }
+
+.panel {
+  text-align: right;
+  font-weight: bold;
+  margin: 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px; }
+
+.panel p {
+  color: white; }
+
+.panel li {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: var(--cinereous);
+  border: 1px solid #000;
+  text-align: center;
+  position: relative; }
+
+.panel li:hover {
+  background-color: var(--liver);
+  color: #8d0263; }
+
+.panel li > ul {
+  display: none; }
+
+.panel li:hover > ul {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 0px; }
+
+.panel li a {
+  text-decoration: none;
+  color: white; }

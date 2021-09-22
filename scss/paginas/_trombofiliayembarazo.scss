@@ -1,0 +1,17 @@
+
+
+.embarazo{
+    text-align: justify;
+    color: dimgrey;
+    font-size: 20px;
+    line-height: 1.5em;
+    &__img{
+        width: 300px;
+        height: 500px;
+    }
+}
+
+.embarazo__img img{
+    width: 50%;
+    height: 50%;
+}

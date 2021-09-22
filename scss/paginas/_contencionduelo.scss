@@ -1,0 +1,41 @@
+
+.texto img{
+    width: 100%;
+    margin: 1rem;
+}
+
+.galeria-principal{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    
+}
+
+.galeria-item {
+    position: relative;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+@media (min-width:768px) {
+    .galeria-principal {
+        grid-template-columns: repeat(2, 70%);
+    }
+    
+}  
+
+@media (min-width:1024px) {
+    .galeria-principal {
+        grid-template-columns: repeat(3, 57%);
+        width: 100%;
+    }
+    
+}  

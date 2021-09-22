@@ -1,0 +1,52 @@
+.trombofilia picture img{
+    width: 800px;
+}
+
+.trombofilia picture img{
+    width: 80%;
+}
+
+main .trombofilia ul li{
+    list-style-type: none;
+    color: var(--liver);
+    font-size: 2rem;
+}
+
+
+.texto {
+    text-align: justify;
+    color: var(--liver);
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 1em;
+} 
+
+main .trombofilia p{
+    color:var(--liver);
+    font-size: 20px;
+}
+/* Sección tabla */
+.tabla{
+    font-size: 2rem;
+}
+
+table{
+    background-color: rgb(247, 244, 224);
+    padding: 3rem;
+}
+
+table thead tr th {
+    color: rgb(85, 3, 44);
+    font-weight: 700;
+    padding: 3em;
+    font-size: 1em;
+}
+
+
+table tr td {
+    color: rgb(85, 3, 44);
+    font-weight: 700;
+    padding:3em ;
+    font-size: 1em;
+}
+ 

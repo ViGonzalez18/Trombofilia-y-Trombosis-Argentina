@@ -1,0 +1,21 @@
+/* Variables */
+@import "./utils/variables";
+
+/* Globales */
+@import "./utils/animations";
+@import "./utils/normalize";
+@import "./utils/globals";
+
+/* Paginas */
+@import "./paginas/contacto";
+@import "./paginas/contencionduelo";
+@import "./paginas/inicial";
+@import "./paginas/leydetrombofilia";
+@import "./paginas/trombofilia";
+@import "./paginas/trombofiliayembarazo";
+@import "./paginas/_404";
+
+/* Partials */
+@import "./partials/footer";
+@import "./partials/header";
+
