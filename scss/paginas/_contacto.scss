@@ -1,14 +1,14 @@
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
-    padding: 2rem;
-   &__texto{
-    text-align: justify;
-    color: var(--liver);
-    font-size: 20px;
-    line-height: 1.5em;
-    padding: 1em;
-   }
+.header {
+    font-family:'Kaisei HarunoUmi', serif ;
+    color:darkslategray;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.bigicon {
+    font-family:'Kaisei HarunoUmi', serif;
+    font-size: 35px;
+    color: burlywood;
+    padding: 10px;
+    
 }

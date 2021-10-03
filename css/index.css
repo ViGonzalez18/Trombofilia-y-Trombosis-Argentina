@@ -38,18 +38,17 @@ body section p {
   justify-content: center; }
 
 /* Paginas */
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 600px;
-  padding: 2rem; }
-  .form__texto {
-    text-align: justify;
-    color: var(--liver);
-    font-size: 20px;
-    line-height: 1.5em;
-    padding: 1em; }
+.header {
+  font-family: 'Kaisei HarunoUmi', serif;
+  color: darkslategray;
+  font-size: 2rem;
+  padding: 10px; }
+
+.bigicon {
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 35px;
+  color: burlywood;
+  padding: 10px; }
 
 .texto img {
   width: 100%;
@@ -202,7 +201,7 @@ table tr td {
 
 /* Partials */
 .footer {
-  background-color: var(--almond);
+  background-image: linear-gradient(to top, #fefedf, #fbf6db, #f8efd7, #f3e8d3, #eee1d0);
   width: 17wv;
   display: flex;
   flex-direction: row;
@@ -213,10 +212,11 @@ table tr td {
     text-align: center;
     font-size: x-large;
     font-style: inherit;
-    color: var(--liver); }
+    color: var(--liver);
+    margin: 1em; }
   .footer__link__img {
     width: 6vh;
-    transform: scale(0.5, 0.5); }
+    transform: scale(1, 1); }
 
 header {
   height: 30%;
@@ -232,3 +232,9 @@ header {
   margin: 0;
   border: 2px solid #000;
   box-sizing: border-box; }
+
+#nav-color {
+  color: var(--cinereous);
+  font-family: 'Kaisei HarunoUmi', serif;
+  margin: 0rem 2rem;
+  font-size: 2rem; }
