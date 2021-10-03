@@ -221,7 +221,6 @@ table tr td {
 header {
   height: 30%;
   width: 100%;
-  background-image: url("../imagenes/Logo1.jpg");
   background-size: contain;
   background-repeat: repeat-x;
   filter: brightness(125%); }
