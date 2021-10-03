@@ -220,15 +220,15 @@ table tr td {
 
 header {
   height: 30%;
-  width: 100%; }
+  width: 100%;
+  font-size: 2rem; }
+
+.navbar {
+  color: blue; }
 
 .logo__imagen {
-  width: 8%;
+  width: 20%;
   padding: 0;
   margin: 0;
   border: 2px solid #000;
   box-sizing: border-box; }
-
-header.contenedor--header {
-  color: aquamarine;
-  font-size: 2 rem; }
