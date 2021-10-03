@@ -220,10 +220,7 @@ table tr td {
 
 header {
   height: 30%;
-  width: 100%;
-  background-size: contain;
-  background-repeat: repeat-x;
-  filter: brightness(125%); }
+  width: 100%; }
 
 .logo__imagen {
   width: 8%;
@@ -232,40 +229,6 @@ header {
   border: 2px solid #000;
   box-sizing: border-box; }
 
-.panel {
-  text-align: right;
-  font-weight: bold;
-  margin: 1rem;
-  text-decoration: none;
-  color: inherit;
-  font-size: 14px; }
-
-.panel p {
-  color: white; }
-
-.panel li {
-  display: inline-block;
-  width: 150px;
-  height: 30px;
-  padding: 5px 10px;
-  background-color: var(--cinereous);
-  border: 1px solid #000;
-  text-align: center;
-  position: relative; }
-
-.panel li:hover {
-  background-color: var(--liver);
-  color: #8d0263; }
-
-.panel li > ul {
-  display: none; }
-
-.panel li:hover > ul {
-  display: block;
-  position: absolute;
-  top: 30px;
-  left: 0px; }
-
-.panel li a {
-  text-decoration: none;
-  color: white; }
+header.contenedor--header {
+  color: aquamarine;
+  font-size: 2 rem; }
