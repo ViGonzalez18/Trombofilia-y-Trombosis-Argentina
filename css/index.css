@@ -189,6 +189,11 @@ table tr td {
   width: 50%;
   height: 30%; }
 
+.error img {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .error h2 {
   font-size: 2rem;
   color: black; }
@@ -198,6 +203,10 @@ table tr td {
   color: blueviolet;
   font-size: 2.5rem;
   font-weight: bolder; }
+
+.error {
+  background-image: url("../../imagenes/Logo1.jpg");
+  width: 500px; }
 
 /* Partials */
 .footer {
