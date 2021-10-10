@@ -1,22 +1,26 @@
 .footer{
-    background-color:ghostwhite;
-    width: 17wv;
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    justify-content:space-evenly;
+    width: 100%;
+    height: 5%;
+    
 
     &__link {
         text-decoration: none;
         text-align:center;
-        font-size:x-large;
+        font-size:1em;
         font-style:inherit;
         color: var(--liver);
-        margin: 1em;
 
     }
     &__link__img {
-                    width: 6vh;   
-            transform: scale(1,1);
+                    width: 10%;   
+                    display: block;
+                    border-radius: 5%;
     }
+}
+
+.contenido_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
 }

@@ -22,7 +22,6 @@ html {
 h1 {
   font-family: 'Kaisei HarunoUmi', serif;
   color: var(--dark-red);
-  font-size: 2em;
   font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
@@ -114,6 +113,12 @@ body section p {
   display: flex;
   flex-grow: 1;
   justify-content: space-around; }
+
+.img1 {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 5%; }
 
 .ley-trombofilia {
   padding: 2rem; }
@@ -209,27 +214,29 @@ table tr td {
 
 /* Partials */
 .footer {
-  background-color: ghostwhite;
-  width: 17wv;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  justify-content: space-evenly; }
+  width: 100%;
+  height: 5%; }
   .footer__link {
     text-decoration: none;
     text-align: center;
-    font-size: x-large;
+    font-size: 1em;
     font-style: inherit;
-    color: var(--liver);
-    margin: 1em; }
+    color: var(--liver); }
   .footer__link__img {
-    width: 6vh;
-    transform: scale(1, 1); }
+    width: 10%;
+    display: block;
+    border-radius: 5%; }
+
+.contenido_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  align-content: center; }
 
 header {
   height: 30%;
   width: 100%;
-  font-size: 2rem; }
+  font-size: 2em; }
 
 .navbar {
   color: blue; }
@@ -240,12 +247,14 @@ header {
   margin: 1.5em;
   border: 2px solid #000;
   box-sizing: border-box;
-  filter: drop-shadow(0 0 5px var(--liver)); }
+  filter: drop-shadow(0 0 5px var(--liver));
+  display: block;
+  margin: auto; }
 
 #nav-color {
   color: var(--cinereous);
   font-family: 'Kaisei HarunoUmi', serif;
-  margin: 1rem 1rem;
+  margin: 0rem 1rem;
   font-size: 2rem; }
 
 .contenido {
@@ -254,3 +263,6 @@ header {
 
 .item1 {
   margin-top: 1em; }
+
+.item2 {
+  grid-column: 2/3; }

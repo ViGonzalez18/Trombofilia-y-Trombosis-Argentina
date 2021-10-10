@@ -6,7 +6,7 @@
 
 header{
     @include sizes(100%,30%);
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .navbar {
@@ -20,13 +20,15 @@ header{
     border: 2px solid #000;
     box-sizing: border-box;
     filter: drop-shadow(0 0 5px $liver);
+    display:block;
+    margin: auto;
     }
 
 
 #nav-color {
     color:$cinereous;
     font-family: 'Kaisei HarunoUmi', serif;
-    margin: 1rem 1rem;
+    margin: 0rem 1rem;
     font-size: 2rem;
    
 }
@@ -39,4 +41,8 @@ header{
 
 .item1 {
     margin-top: 1em;
+}
+
+.item2 {
+    grid-column: 2/3;
 }
