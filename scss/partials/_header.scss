@@ -16,17 +16,27 @@ header{
 .logo__imagen {
     width: 20%;
     padding: 0;
-    margin: 0;
+    margin: 1.5em;
     border: 2px solid #000;
     box-sizing: border-box;
-    filter: drop-shadow(0 0 5px $liver)
-}
+    filter: drop-shadow(0 0 5px $liver);
+    }
 
 
 #nav-color {
     color:$cinereous;
     font-family: 'Kaisei HarunoUmi', serif;
-    margin: 0rem 2rem;
+    margin: 1rem 1rem;
     font-size: 2rem;
    
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+  }
+
+.item1 {
+    margin-top: 1em;
 }
