@@ -65,7 +65,26 @@ body section p {
 .galeria-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  border-radius: 5%; }
+
+.galeria-ley {
+  display: grid;
+  max-width: 300px;
+  object-fit: cover;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 1rem; }
+
+.galeria-ley img {
+  width: 60%;
+  height: 60%; }
+
+.item1 {
+  grid-row: 1 / 3; }
 
 @media (min-width: 768px) {
   .galeria-principal {
@@ -124,6 +143,10 @@ body section p {
   filter: drop-shadow(0 0 2px var(--liver)); }
 
 .texto-chico {
+  font-size: 1.5em;
+  line-height: 2em; }
+
+.card-text {
   font-size: 1.5em; }
 
 .ley-trombofilia {
@@ -140,6 +163,16 @@ main .ley p {
   display: flex;
   justify-content: left; }
 
+/* .img2 {
+    display:block;
+    margin:auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    margin-bottom: 1em;
+    object-fit: cover;
+    filter: drop-shadow(0 0 2px $liver);
+} */
 .trombofilia picture img {
   width: 800px; }
 
