@@ -149,6 +149,10 @@ body section p {
 .card-text {
   font-size: 1.5em; }
 
+.card-group {
+  width: 80%;
+  height: 80%; }
+
 .ley-trombofilia {
   padding: 2rem; }
 
