@@ -218,7 +218,7 @@ table tr td {
 .embarazo {
   text-align: justify;
   color: dimgrey;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 1.5em; }
   .embarazo__img {
     width: 300px;
@@ -227,11 +227,38 @@ table tr td {
 .embarazo__img img {
   display: block;
   margin: auto;
-  width: 20%;
-  height: 35%;
+  width: 100%;
+  height: 100%;
   border-radius: 5%;
-  margin-bottom: 1em;
   filter: drop-shadow(0 0 2px var(--liver)); }
+
+.img3 {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 5%;
+  border-radius: 5%;
+  margin-bottom: 1em; }
+
+.galeria-secundaria {
+  display: grid;
+  max-width: 600px;
+  max-height: 400px;
+  object-fit: cover;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem; }
+
+@media (min-width: 768px) {
+  .galeria-secundaria {
+    grid-template-columns: repeat(2, 50%); } }
+
+@media (min-width: 1024px) {
+  .galeria-secundaria {
+    grid-template-columns: repeat(2, 57%);
+    width: 100%; } }
 
 .ventana {
   width: 50%;
