@@ -1,10 +1,7 @@
-.ventana {
-    width: 50%;
-    height: 30%;
-}
-.error img{
+
+.error {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -16,12 +13,14 @@
 
 .error a{
     text-decoration: none;
-    color: blueviolet;
+    color:var(--dark-red);
     font-size: 2.5rem;
     font-weight: bolder;
+    text-transform:capitalize;
 }
 
-.error {
-    background-image: url("../../imagenes/Logo1.jpg");
-    width: 500px;
+.corazon img {
+    border-radius: 5%;
+    width: 100%;
+    
 }
