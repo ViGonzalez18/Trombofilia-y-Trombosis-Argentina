@@ -54,5 +54,6 @@ a {
   }
   
   a:hover {
-    background-color:$almond;
+    background-color:lightgray;
+    transition: background-color .5s
   }
