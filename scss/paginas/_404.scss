@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:var(--almond) ;
 }
 
 .error h2{
@@ -21,6 +22,6 @@
 
 .corazon img {
     border-radius: 5%;
-    width: 100%;
+    width: 100%; 
     
 }
